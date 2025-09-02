@@ -1,2 +1,115 @@
-# osint-ui
+# OSINT-UI
 Professional Open Source Intelligence Platform
+
+<img width="1728" height="992" alt="Captura de pantalla 2025-09-02 a las 13 01 39" src="https://github.com/user-attachments/assets/01da5093-d09f-4648-bd1c-c49ed7ed41fd" />
+
+---
+
+**1. Descripción General del Proyecto**
+
+OSINT UI es un entorno de escritorio virtual diseñado para profesionales y entusiastas de la Inteligencia de Fuentes Abiertas (OSINT). Proporciona un conjunto de herramientas integradas en una interfaz de estilo "hacker" para facilitar la recopilación y el análisis de información de fuentes públicas.
+
+El entorno simula un sistema operativo con ventanas que puedes mover, redimensionar, minimizar y maximizar. Cada herramienta está diseñada para una tarea OSINT específica, desde analizar perfiles de redes sociales hasta escanear la infraestructura de un dominio.
+
+**2. Cómo Utilizar cada Funcionalidad**
+
+Para usar una herramienta, simplemente haz clic en su icono en el escritorio para abrir su ventana correspondiente.
+
+---
+
+**Username Analyzer**
+- **Descripción:** Busca un nombre de usuario específico en cientos de plataformas de redes sociales y sitios web para encontrar perfiles existentes.
+- **Modo de uso:**
+  1. Introduce el nombre de usuario en el campo de texto.
+  2. Haz clic en "Analyze". La herramienta escaneará las plataformas y mostrará los resultados.
+  3. Los resultados se codifican por colores:
+     - **Verde (Found):** Se encontró una cuenta. Puedes hacer clic para visitar el perfil.
+     - **Gris (Not Found):** No se encontró una cuenta.
+     - **Naranja/Rojo (Error/Filtered):** Hubo un problema al verificar el sitio o se ha filtrado como un falso positivo.
+  4. Para mayor precisión, puedes usar el botón "Verify False Positives" para realizar una comprobación más exhaustiva de las cuentas encontradas.
+  5. Exporta los resultados en formato JSON con el botón de descarga.
+
+---
+
+**Email Analyzer**
+- **Descripción:** Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia en servicios online.
+- **Modo de uso:**
+  1. Introduce la dirección de correo electrónico a analizar.
+  2. Haz clic en "Analyze".
+  3. La herramienta te proporcionará un resumen técnico (validez de la sintaxis, registros MX, SPF, DMARC) y una evaluación de riesgo.
+  4. También buscará si el email está registrado en servicios populares como Spotify, Adobe, etc.
+  5. Puedes generar "Google Dorks" para iniciar una investigación más profunda sobre ese correo en Google.
+  6. Exporta los resultados en formato JSON.
+
+---
+
+**Phone Analyzer**
+- **Descripción:** Recopila información básica sobre un número de teléfono, incluyendo su tipo de línea (móvil, fijo), país y formato internacional.
+- **Modo de uso:**
+  1. Introduce el número de teléfono en formato internacional (ej: +14155552671).
+  2. Haz clic en "Analyze".
+  3. Revisa la información de formato, país y tipo de línea.
+  4. Genera "Google Dorks" para buscar el número de teléfono en la web.
+  5. Exporta los resultados en formato JSON.
+
+---
+
+**Domain Analyzer**
+- **Descripción:** Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, registros DNS y una lista de subdominios comunes validados.
+- **Modo de uso:**
+  1. Introduce el nombre de dominio (ej: google.com).
+  2. Haz clic en "Analyze".
+  3. Explora la información de WHOIS (registrador, fechas de creación/expiración).
+  4. Revisa la tabla de registros DNS (A, MX, TXT, etc.).
+  5. Consulta la lista de subdominios que se ha confirmado que existen.
+  6. Exporta los resultados en formato JSON.
+
+---
+
+**Port Scanner**
+- **Descripción:** Escanea una dirección IP o un dominio para descubrir qué puertos están abiertos y qué servicios podrían estar ejecutándose en ellos.
+- **Modo de uso:**
+  1. Introduce la IP o el dominio a escanear.
+  2. Elige el tipo de escaneo:
+     - **Fast Scan:** Comprueba los 100 puertos más comunes. Rápido e ideal para una primera pasada.
+     - **Complete Scan:** Comprueba los 1000 puertos más comunes. Más lento pero más exhaustivo.
+  3. Haz clic en "Scan".
+  4. Revisa la tabla de resultados para ver los puertos abiertos, cerrados o filtrados.
+  5. Exporta los resultados en formato JSON.
+
+---
+
+**Reputation Checker**
+- **Descripción:** Comprueba la reputación de una IP o un dominio consultando bases de datos de inteligencia de amenazas (CTI) para ver si está asociado con actividades maliciosas.
+- **Modo de uso:**
+  1. Introduce la IP o el dominio.
+  2. Haz clic en "Check".
+  3. La herramienta te dará un veredicto (Benign, Malicious) y una puntuación de riesgo.
+  4. Revisa los detalles de las fuentes de inteligencia de amenazas consultadas.
+  5. Exporta el informe en formato JSON.
+
+---
+
+**Metadata Extractor**
+- **Descripción:** Extrae datos EXIF ocultos de una imagen, como la ubicación GPS, el modelo de la cámara, fechas y otros detalles técnicos.
+- **Modo de uso:**
+  1. Puedes analizar una imagen desde una URL o subiendo un archivo desde tu ordenador.
+  2. Pega la URL o selecciona el archivo y haz clic en "Extract" o "Upload Image".
+  3. Si se encuentran datos EXIF, se mostrarán en tarjetas:
+     - **Camera:** Marca y modelo.
+     - **Timestamps:** Fechas de creación/modificación.
+     - **GPS Location:** Si hay coordenadas, se mostrarán junto a un enlace a Google Maps.
+     - **Raw EXIF Data:** Una tabla completa con todos los metadatos encontrados.
+  4. Exporta los resultados en formato JSON.
+
+---
+
+**Hash Analyzer**
+- **Descripción:** Identifica el tipo de algoritmo de un hash (ej: MD5, SHA-256, bcrypt).
+- **Modo de uso:**
+  1. Pega el hash en el campo de texto.
+  2. Haz clic en "Identify".
+  3. La herramienta mostrará una lista de los posibles tipos de hash con una probabilidad estimada para cada uno.
+  4. Se proporciona un enlace a CrackStation, un servicio online para intentar "romper" el hash si es de un tipo común.
+  5. Exporta los resultados en formato JSON.
+
