@@ -11,13 +11,13 @@ OSINT UI es un entorno de escritorio virtual diseñado para profesionales y entu
 
 El entorno simula un sistema operativo con ventanas que puedes mover, redimensionar, minimizar y maximizar. Cada herramienta está diseñada para una tarea OSINT específica, desde analizar perfiles de redes sociales hasta escanear la infraestructura de un dominio.
 
+---
+
 ## 2. Cómo Utilizar cada Funcionalidad
 
 Para usar una herramienta, simplemente haz clic en su icono en el escritorio para abrir su ventana correspondiente.
 
----
-
-**Username Analyzer**
+### Username Analyzer
 
 <img width="1728" height="991" alt="Captura de pantalla 2025-09-02 a las 13 04 17" src="https://github.com/user-attachments/assets/4458d183-9b3b-47bb-a764-87e2ae089d37" />
 
@@ -34,7 +34,7 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 
 ---
 
-**Email Analyzer**
+### Email Analyzer
 
 <img width="1543" height="958" alt="Captura de pantalla 2025-09-02 a las 13 06 54" src="https://github.com/user-attachments/assets/93ca80c4-79a0-49cb-9daa-91d29da215ad" />
 
@@ -49,7 +49,10 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 
 ---
 
-**Phone Analyzer**
+### Phone Analyzer
+
+<img width="1534" height="936" alt="Captura de pantalla 2025-09-02 a las 13 13 08" src="https://github.com/user-attachments/assets/c1e8a746-6dc7-466e-96ba-9ecfd93c77af" />
+
 - **Descripción:** Recopila información básica sobre un número de teléfono, incluyendo su tipo de línea (móvil, fijo), país y formato internacional.
 - **Modo de uso:**
   1. Introduce el número de teléfono en formato internacional (ej: +14155552671).
@@ -60,7 +63,10 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 
 ---
 
-**Domain Analyzer**
+### Domain Analyzer
+
+<img width="1535" height="981" alt="Captura de pantalla 2025-09-02 a las 13 17 06" src="https://github.com/user-attachments/assets/587f71e1-4186-495d-bd4a-75167664947e" />
+
 - **Descripción:** Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, registros DNS y una lista de subdominios comunes validados.
 - **Modo de uso:**
   1. Introduce el nombre de dominio (ej: google.com).
@@ -68,11 +74,15 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
   3. Explora la información de WHOIS (registrador, fechas de creación/expiración).
   4. Revisa la tabla de registros DNS (A, MX, TXT, etc.).
   5. Consulta la lista de subdominios que se ha confirmado que existen.
-  6. Exporta los resultados en formato JSON.
+  6. Genera "Google Dorks" para buscar el dominio en la web.
+  7. Exporta los resultados en formato JSON.
 
 ---
 
-**Port Scanner**
+### Port Scanner
+
+<img width="1537" height="970" alt="Captura de pantalla 2025-09-02 a las 13 20 41" src="https://github.com/user-attachments/assets/b21ea5dd-9968-4c30-a565-d3f701df7c61" />
+
 - **Descripción:** Escanea una dirección IP o un dominio para descubrir qué puertos están abiertos y qué servicios podrían estar ejecutándose en ellos.
 - **Modo de uso:**
   1. Introduce la IP o el dominio a escanear.
@@ -85,18 +95,25 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 
 ---
 
-**Reputation Checker**
+### Reputation Checker
+
+<img width="1535" height="882" alt="Captura de pantalla 2025-09-02 a las 13 22 45" src="https://github.com/user-attachments/assets/89be3446-bedb-4796-9601-0e75c26c8ac6" />
+
 - **Descripción:** Comprueba la reputación de una IP o un dominio consultando bases de datos de inteligencia de amenazas (CTI) para ver si está asociado con actividades maliciosas.
 - **Modo de uso:**
   1. Introduce la IP o el dominio.
   2. Haz clic en "Check".
   3. La herramienta te dará un veredicto (Benign, Malicious) y una puntuación de riesgo.
   4. Revisa los detalles de las fuentes de inteligencia de amenazas consultadas.
-  5. Exporta el informe en formato JSON.
+  5. Genera "Google Dorks" para buscar el dominio en la web.
+  6. Exporta el informe en formato JSON.
 
 ---
 
-**Metadata Extractor**
+### Metadata Extractor
+
+<img width="1537" height="934" alt="Captura de pantalla 2025-09-02 a las 13 31 37" src="https://github.com/user-attachments/assets/31f98095-2129-48f1-b99f-eafdbac73410" />
+
 - **Descripción:** Extrae datos EXIF ocultos de una imagen, como la ubicación GPS, el modelo de la cámara, fechas y otros detalles técnicos.
 - **Modo de uso:**
   1. Puedes analizar una imagen desde una URL o subiendo un archivo desde tu ordenador.
@@ -110,12 +127,15 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 
 ---
 
-**Hash Analyzer**
+### Hash Analyzer
+
+<img width="3078" height="1486" alt="image" src="https://github.com/user-attachments/assets/b4e96c45-7fee-47b6-a77b-dfc5d09431e4" />
+
 - **Descripción:** Identifica el tipo de algoritmo de un hash (ej: MD5, SHA-256, bcrypt).
 - **Modo de uso:**
   1. Pega el hash en el campo de texto.
   2. Haz clic en "Identify".
   3. La herramienta mostrará una lista de los posibles tipos de hash con una probabilidad estimada para cada uno.
-  4. Se proporciona un enlace a CrackStation, un servicio online para intentar "romper" el hash si es de un tipo común.
+  4. Se proporciona un enlace a CrackStation, un servicio online para intentar Crackear el hash si es de un tipo común.
   5. Exporta los resultados en formato JSON.
 
