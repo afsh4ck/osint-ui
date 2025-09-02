@@ -11,6 +11,8 @@ OSINT UI es un entorno de escritorio virtual diseñado para profesionales y entu
 
 El entorno simula un sistema operativo con ventanas que puedes mover, redimensionar, minimizar y maximizar. Cada herramienta está diseñada para una tarea OSINT específica, desde analizar perfiles de redes sociales hasta escanear la infraestructura de un dominio.
 
+<img width="1728" height="992" alt="Captura de pantalla 2025-09-02 a las 13 35 30" src="https://github.com/user-attachments/assets/d111a487-9826-4037-8381-4ed0a73fff32" />
+
 ---
 
 ## 2. Cómo Utilizar cada Funcionalidad
