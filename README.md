@@ -20,10 +20,11 @@ El entorno simula un sistema operativo con ventanas que puedes mover, redimensio
 Para usar una herramienta, simplemente haz clic en su icono en el escritorio para abrir su ventana correspondiente.
 
 ### Username Analyzer
+Busca un nombre de usuario específico en cientos de plataformas de redes sociales y sitios web para encontrar perfiles existentes.
 
 <img width="1728" height="991" alt="Captura de pantalla 2025-09-02 a las 13 04 17" src="https://github.com/user-attachments/assets/4458d183-9b3b-47bb-a764-87e2ae089d37" />
 
-- **Descripción:** Busca un nombre de usuario específico en cientos de plataformas de redes sociales y sitios web para encontrar perfiles existentes.
+
 - **Modo de uso:**
   1. Introduce el nombre de usuario en el campo de texto.
   2. Haz clic en "Analyze". La herramienta escaneará las plataformas y mostrará los resultados.
@@ -37,10 +38,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Email Analyzer
+Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia en servicios online.
 
 <img width="1543" height="958" alt="Captura de pantalla 2025-09-02 a las 13 06 54" src="https://github.com/user-attachments/assets/93ca80c4-79a0-49cb-9daa-91d29da215ad" />
 
-- **Descripción:** Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia en servicios online.
+
 - **Modo de uso:**
   1. Introduce la dirección de correo electrónico a analizar.
   2. Haz clic en "Analyze".
@@ -52,10 +54,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Phone Analyzer
+Recopila información básica sobre un número de teléfono, incluyendo su tipo de línea (móvil, fijo), país y formato internacional.
 
 <img width="1534" height="936" alt="Captura de pantalla 2025-09-02 a las 13 13 08" src="https://github.com/user-attachments/assets/c1e8a746-6dc7-466e-96ba-9ecfd93c77af" />
 
-- **Descripción:** Recopila información básica sobre un número de teléfono, incluyendo su tipo de línea (móvil, fijo), país y formato internacional.
+
 - **Modo de uso:**
   1. Introduce el número de teléfono en formato internacional (ej: +14155552671).
   2. Haz clic en "Analyze".
@@ -66,10 +69,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Domain Analyzer
+Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, registros DNS y una lista de subdominios comunes validados.
 
 <img width="1535" height="981" alt="Captura de pantalla 2025-09-02 a las 13 17 06" src="https://github.com/user-attachments/assets/587f71e1-4186-495d-bd4a-75167664947e" />
 
-- **Descripción:** Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, registros DNS y una lista de subdominios comunes validados.
+
 - **Modo de uso:**
   1. Introduce el nombre de dominio (ej: google.com).
   2. Haz clic en "Analyze".
@@ -82,10 +86,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Port Scanner
+Escanea una dirección IP o un dominio para descubrir qué puertos están abiertos y qué servicios podrían estar ejecutándose en ellos.
 
 <img width="1537" height="970" alt="Captura de pantalla 2025-09-02 a las 13 20 41" src="https://github.com/user-attachments/assets/b21ea5dd-9968-4c30-a565-d3f701df7c61" />
 
-- **Descripción:** Escanea una dirección IP o un dominio para descubrir qué puertos están abiertos y qué servicios podrían estar ejecutándose en ellos.
+
 - **Modo de uso:**
   1. Introduce la IP o el dominio a escanear.
   2. Elige el tipo de escaneo:
@@ -98,10 +103,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Reputation Checker
+Comprueba la reputación de una IP o un dominio consultando bases de datos de inteligencia de amenazas (CTI) para ver si está asociado con actividades maliciosas.
 
 <img width="1535" height="882" alt="Captura de pantalla 2025-09-02 a las 13 22 45" src="https://github.com/user-attachments/assets/89be3446-bedb-4796-9601-0e75c26c8ac6" />
 
-- **Descripción:** Comprueba la reputación de una IP o un dominio consultando bases de datos de inteligencia de amenazas (CTI) para ver si está asociado con actividades maliciosas.
+
 - **Modo de uso:**
   1. Introduce la IP o el dominio.
   2. Haz clic en "Check".
@@ -113,10 +119,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Metadata Extractor
+Extrae datos EXIF ocultos de una imagen, como la ubicación GPS con link a Google Maps, el modelo de la cámara, fechas y otros detalles técnicos.
 
 <img width="1537" height="934" alt="Captura de pantalla 2025-09-02 a las 13 31 37" src="https://github.com/user-attachments/assets/31f98095-2129-48f1-b99f-eafdbac73410" />
 
-- **Descripción:** Extrae datos EXIF ocultos de una imagen, como la ubicación GPS, el modelo de la cámara, fechas y otros detalles técnicos.
+
 - **Modo de uso:**
   1. Puedes analizar una imagen desde una URL o subiendo un archivo desde tu ordenador.
   2. Pega la URL o selecciona el archivo y haz clic en "Extract" o "Upload Image".
@@ -130,10 +137,11 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 ### Hash Analyzer
+Identifica el tipo de algoritmo de un hash (ej: MD5, SHA-256, bcrypt) con opción de crackearlo online a través de Crackstation.
 
 <img width="3078" height="1486" alt="image" src="https://github.com/user-attachments/assets/b4e96c45-7fee-47b6-a77b-dfc5d09431e4" />
 
-- **Descripción:** Identifica el tipo de algoritmo de un hash (ej: MD5, SHA-256, bcrypt).
+
 - **Modo de uso:**
   1. Pega el hash en el campo de texto.
   2. Haz clic en "Identify".
