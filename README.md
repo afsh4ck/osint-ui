@@ -5,19 +5,22 @@ Professional Open Source Intelligence Platform
 
 ---
 
-**1. Descripción General del Proyecto**
+## 1. Introducción
 
 OSINT UI es un entorno de escritorio virtual diseñado para profesionales y entusiastas de la Inteligencia de Fuentes Abiertas (OSINT). Proporciona un conjunto de herramientas integradas en una interfaz de estilo "hacker" para facilitar la recopilación y el análisis de información de fuentes públicas.
 
 El entorno simula un sistema operativo con ventanas que puedes mover, redimensionar, minimizar y maximizar. Cada herramienta está diseñada para una tarea OSINT específica, desde analizar perfiles de redes sociales hasta escanear la infraestructura de un dominio.
 
-**2. Cómo Utilizar cada Funcionalidad**
+## 2. Cómo Utilizar cada Funcionalidad
 
 Para usar una herramienta, simplemente haz clic en su icono en el escritorio para abrir su ventana correspondiente.
 
 ---
 
 **Username Analyzer**
+
+<img width="1728" height="991" alt="Captura de pantalla 2025-09-02 a las 13 04 17" src="https://github.com/user-attachments/assets/4458d183-9b3b-47bb-a764-87e2ae089d37" />
+
 - **Descripción:** Busca un nombre de usuario específico en cientos de plataformas de redes sociales y sitios web para encontrar perfiles existentes.
 - **Modo de uso:**
   1. Introduce el nombre de usuario en el campo de texto.
@@ -32,6 +35,9 @@ Para usar una herramienta, simplemente haz clic en su icono en el escritorio par
 ---
 
 **Email Analyzer**
+
+<img width="1543" height="958" alt="Captura de pantalla 2025-09-02 a las 13 06 54" src="https://github.com/user-attachments/assets/93ca80c4-79a0-49cb-9daa-91d29da215ad" />
+
 - **Descripción:** Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia en servicios online.
 - **Modo de uso:**
   1. Introduce la dirección de correo electrónico a analizar.
