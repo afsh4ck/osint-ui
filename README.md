@@ -1,13 +1,12 @@
 # OSINT-UI
-Professional Open Source Intelligence Platform
+### Professional Open Source Intelligence Platform
+OSINT UI es un entorno de escritorio virtual diseñado para profesionales y entusiastas de la Inteligencia de Fuentes Abiertas (OSINT). Proporciona un conjunto de herramientas integradas en una interfaz de estilo "hacker" para facilitar la recopilación y el análisis de información de fuentes públicas.
 
 <img width="1728" height="992" alt="Captura de pantalla 2025-09-02 a las 13 01 39" src="https://github.com/user-attachments/assets/01da5093-d09f-4648-bd1c-c49ed7ed41fd" />
 
 ---
 
 ## 1. Introducción
-
-OSINT UI es un entorno de escritorio virtual diseñado para profesionales y entusiastas de la Inteligencia de Fuentes Abiertas (OSINT). Proporciona un conjunto de herramientas integradas en una interfaz de estilo "hacker" para facilitar la recopilación y el análisis de información de fuentes públicas.
 
 El entorno simula un sistema operativo con ventanas que puedes mover, redimensionar, minimizar y maximizar. Cada herramienta está diseñada para una tarea OSINT específica, desde analizar perfiles de redes sociales hasta escanear la infraestructura de un dominio.
 
