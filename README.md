@@ -104,7 +104,6 @@ Comprueba la reputación de una IP o un dominio consultando bases de datos de in
 
 <img width="1535" height="882" alt="Captura de pantalla 2025-09-02 a las 13 22 45" src="https://github.com/user-attachments/assets/89be3446-bedb-4796-9601-0e75c26c8ac6" />
 
-
 - **Modo de uso:**
   1. Introduce la IP o el dominio.
   2. Haz clic en "Check".
@@ -118,8 +117,7 @@ Comprueba la reputación de una IP o un dominio consultando bases de datos de in
 ### Metadata Extractor
 Extrae datos EXIF ocultos de una imagen, como la ubicación GPS con link a Google Maps, el modelo de la cámara, fechas y otros detalles técnicos.
 
-<img width="1537" height="934" alt="Captura de pantalla 2025-09-02 a las 13 31 37" src="https://github.com/user-attachments/assets/31f98095-2129-48f1-b99f-eafdbac73410" />
-
+<img width="2984" height="1758" alt="image" src="https://github.com/user-attachments/assets/e4c61eb0-34ec-4a86-ad96-4d0094934f71" />
 
 - **Modo de uso:**
   1. Puedes analizar una imagen desde una URL o subiendo un archivo desde tu ordenador.
@@ -137,7 +135,6 @@ Extrae datos EXIF ocultos de una imagen, como la ubicación GPS con link a Googl
 Identifica el tipo de algoritmo de un hash (ej: MD5, SHA-256, bcrypt) con opción de crackearlo online a través de Crackstation.
 
 <img width="3078" height="1486" alt="image" src="https://github.com/user-attachments/assets/b4e96c45-7fee-47b6-a77b-dfc5d09431e4" />
-
 
 - **Modo de uso:**
   1. Pega el hash en el campo de texto.
