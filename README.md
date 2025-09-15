@@ -37,7 +37,7 @@ Busca un nombre de usuario específico en cientos de plataformas de redes social
 ---
 
 ### Email Analyzer
-Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia en servicios online.
+Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia online.
 
 <img width="3840" height="1666" alt="image" src="https://github.com/user-attachments/assets/c2a80d6e-66f5-4c53-b89b-a1761f6fe846" />
 
@@ -45,7 +45,7 @@ Verifica una dirección de correo electrónico para determinar su validez, reput
   1. Introduce la dirección de correo electrónico a analizar.
   2. Haz clic en "Analyze".
   3. La herramienta te proporcionará un resumen técnico (validez de la sintaxis, registros MX, SPF, DMARC) y una evaluación de riesgo.
-  4. También buscará si el email está registrado en servicios populares como Spotify, Adobe, etc.
+  4. También analizará con la API de Dymo si puede ser un email de phising, corporativo, no-reply, etc...
   5. Puedes generar "Google Dorks" para iniciar una investigación más profunda sobre ese correo en Google.
   6. Exporta los resultados en formato JSON.
 
@@ -55,7 +55,6 @@ Verifica una dirección de correo electrónico para determinar su validez, reput
 Recopila información básica sobre un número de teléfono, incluyendo su tipo de línea (móvil, fijo), país y formato internacional.
 
 <img width="1534" height="936" alt="Captura de pantalla 2025-09-02 a las 13 13 08" src="https://github.com/user-attachments/assets/c1e8a746-6dc7-466e-96ba-9ecfd93c77af" />
-
 
 - **Modo de uso:**
   1. Introduce el número de teléfono en formato internacional (ej: +14155552671).
