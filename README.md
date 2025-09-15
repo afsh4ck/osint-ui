@@ -86,8 +86,7 @@ Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, regis
 ### Port Scanner
 Escanea una dirección IP o un dominio para descubrir qué puertos están abiertos y qué servicios podrían estar ejecutándose en ellos.
 
-<img width="1537" height="970" alt="Captura de pantalla 2025-09-02 a las 13 20 41" src="https://github.com/user-attachments/assets/b21ea5dd-9968-4c30-a565-d3f701df7c61" />
-
+<img width="3840" height="1680" alt="image" src="https://github.com/user-attachments/assets/e8a4663d-426c-4700-929e-67185693b829" />
 
 - **Modo de uso:**
   1. Introduce la IP o el dominio a escanear.
