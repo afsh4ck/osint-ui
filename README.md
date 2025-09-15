@@ -39,8 +39,7 @@ Busca un nombre de usuario específico en cientos de plataformas de redes social
 ### Email Analyzer
 Verifica una dirección de correo electrónico para determinar su validez, reputación y presencia en servicios online.
 
-<img width="1543" height="958" alt="Captura de pantalla 2025-09-02 a las 13 06 54" src="https://github.com/user-attachments/assets/93ca80c4-79a0-49cb-9daa-91d29da215ad" />
-
+<img width="3840" height="1666" alt="image" src="https://github.com/user-attachments/assets/c2a80d6e-66f5-4c53-b89b-a1761f6fe846" />
 
 - **Modo de uso:**
   1. Introduce la dirección de correo electrónico a analizar.
