@@ -69,7 +69,8 @@ Recopila información básica sobre un número de teléfono, incluyendo su tipo 
 ### Domain Analyzer
 Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, registros DNS y una lista de subdominios comunes validados.
 
-<img width="1535" height="981" alt="Captura de pantalla 2025-09-02 a las 13 17 06" src="https://github.com/user-attachments/assets/587f71e1-4186-495d-bd4a-75167664947e" />
+<img width="2976" height="1764" alt="image" src="https://github.com/user-attachments/assets/31971b28-604b-4359-ab25-0ab899e5b0f5" /> <img width="2970" height="1762" alt="image" src="https://github.com/user-attachments/assets/15b13cda-27db-48a1-9849-4d6f2f4218d1" />
+
 
 - **Modo de uso:**
   1. Introduce el nombre de dominio (ej: google.com).
