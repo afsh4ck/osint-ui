@@ -54,14 +54,15 @@ Verifica una dirección de correo electrónico para determinar su validez, reput
 ### Phone Analyzer
 Recopila información básica sobre un número de teléfono, incluyendo su tipo de línea (móvil, fijo), país y formato internacional.
 
-<img width="1534" height="936" alt="Captura de pantalla 2025-09-02 a las 13 13 08" src="https://github.com/user-attachments/assets/c1e8a746-6dc7-466e-96ba-9ecfd93c77af" />
+<img width="2994" height="1782" alt="image" src="https://github.com/user-attachments/assets/7c93afee-d3a5-41b7-a277-c057cdf87668" />
 
 - **Modo de uso:**
   1. Introduce el número de teléfono en formato internacional (ej: +14155552671).
   2. Haz clic en "Analyze".
   3. Revisa la información de formato, país y tipo de línea.
-  4. Genera "Google Dorks" para buscar el número de teléfono en la web.
-  5. Exporta los resultados en formato JSON.
+  4. Podemos investigar WhatsApp y Telegram con enlaces dedicados.
+  5. Genera "Google Dorks" para buscar el número de teléfono en la web.
+  6. Exporta los resultados en formato JSON.
 
 ---
 
@@ -69,7 +70,6 @@ Recopila información básica sobre un número de teléfono, incluyendo su tipo 
 Obtiene información pública sobre un dominio, incluyendo datos de WHOIS, registros DNS y una lista de subdominios comunes validados.
 
 <img width="1535" height="981" alt="Captura de pantalla 2025-09-02 a las 13 17 06" src="https://github.com/user-attachments/assets/587f71e1-4186-495d-bd4a-75167664947e" />
-
 
 - **Modo de uso:**
   1. Introduce el nombre de dominio (ej: google.com).
