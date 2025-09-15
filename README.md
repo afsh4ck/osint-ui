@@ -125,7 +125,7 @@ Extrae datos EXIF ocultos de una imagen, como la ubicación GPS con link a Googl
   3. Si se encuentran datos EXIF, se mostrarán en tarjetas:
      - **Camera:** Marca y modelo.
      - **Timestamps:** Fechas de creación/modificación.
-     - **GPS Location:** Si hay coordenadas, se mostrarán junto a un enlace a Google Maps.
+     - **GPS Location:** Si hay coordenadas, se mostrarán en un mapa interactivo y un enlace a Google Maps.
      - **Raw EXIF Data:** Una tabla completa con todos los metadatos encontrados.
   4. Exporta los resultados en formato JSON.
 
